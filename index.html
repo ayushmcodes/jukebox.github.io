@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JukeBox</title>
+    <title>Ayush Music Player</title>
     <script src="https://kit.fontawesome.com/42aa80ac17.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
@@ -79,7 +79,7 @@
         .carousel-cell{
             width: 45%;
             height: 20em;
-            border-radius: 5px;
+            border-radius: 4em;
         }
         .carousel-cell::before{
             display: block;
@@ -91,7 +91,9 @@
             height: 320px;
             margin: 0;
             padding: 0;
-            border-radius: 2em;
+            border-radius: 4em;
+            padding-left: 4em;
+            padding-right: 4em;
         }
         .p1{
             position: relative;
@@ -123,12 +125,13 @@
             bottom: .5em;
             background-color: #20242C;
             height: 4em;
-            width: 65em;
+            width: 80%;
         }
         .currsongimg{
             height: 4em;
             width: 4em;
             border-radius: 100%;
+            
         }
         .currsongname{
             position: relative;
@@ -199,15 +202,7 @@
             bottom: 1.45em;
             left: 4em;
         }
-        #queuecontainer{
-            position: fixed;
-            bottom: .5em;
-            right: 1em;
-            background-color: #20242C;
-            width: 15%;
-            height: 30%;
-            border-radius: 10%;
-        }
+
     </style>
 </head>
 <body>
@@ -294,9 +289,6 @@
                 <i id="shuffle"  class="fas fa-random" ></i>
                 <i id="like"  class="fas fa-thumbs-up" ></i>
                 <i id="dislike"  class="fas fa-thumbs-down"></i>
-            </div>
-            <div id="queuecontainer">
-
             </div>
         <script src="/path/to/flickity.pkgd.min.js"></script>
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
