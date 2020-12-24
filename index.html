@@ -92,17 +92,24 @@
         }
         .p1{
             position: relative;
-            left:3em;
+            left:3.5em;
             top: 4em;
             font-family: 'Yanone Kaffeesatz', sans-serif;
             color: white;
             font-size: 2em;
         }
         .tiles{
+            width: 85%;
+            display: flex;
             margin-right: 15em;
             margin-left: 5.7em;
             margin-top: 8.5em;
+            padding-left: 1em;
             perspective: 50em;
+            scrollbar-width: none;
+            flex-direction: row;
+            overflow-x: auto;
+            overflow-y: hidden;
         }
         .tilesimg{
             height: 11em;
@@ -120,7 +127,7 @@
             bottom: .5em;
             background-color: #20242C;
             height: 4em;
-            width: 80%;
+            width: 65%;
         }
         .currsongimg{
             height: 4em;
@@ -161,41 +168,41 @@
         }
         #shuffle{
             color: white;
-            position: relative;
-            bottom: 1.5em;
-            left: 9em;
+            position: absolute;
+            bottom: 1.25em;
+            right: 5em;
         }
         #like{
             color: white;
-            position: relative;
-            bottom: 1.5em;
-            left: 9.5em;
+            position: absolute;
+            bottom: 1.25em;
+            right: 2.5em;
         }
         #dislike{
             color: white;
-            position: relative;
-            bottom: 1.5em;
-            left: 10em;
+            position: absolute;
+            bottom: 1.25em;
+            right: 1.2em;
         }
         #replay{
             color: white;
-            position: relative;
-            bottom: 1.5em;
-            left: 8.5em;
+            position: absolute;
+            bottom: 1.2em;
+            right:3.8em;
         }
         #songslider{
             -webkit-appearance: none;
             width: 5%;
             border-radius: .3em;
-            position: relative;
-            bottom: 1.5em;
-            left: 5em;
+            position: absolute;
+            bottom: 1.4em;
+            right: 9em;
         }
         #sound{
             color: white;
-            position: relative;
-            bottom: 1.45em;
-            left: 4em;
+            position: absolute;
+            right: 10.7em;
+            bottom: 1.25em;
         }
 
     </style>
@@ -238,9 +245,21 @@
             <img class="tilesimg" src="images/best2020_4.png" alt="">
             <img class="tilesimg" src="images/best2020_5.png" alt="">
             <img class="tilesimg" src="images/best2020_6.png" alt="">
+            <img class="tilesimg" src="images/best2020_1.png" alt="">
+            <img class="tilesimg" src="images/best2020_2.png" alt="">
+            <img class="tilesimg" src="images/best2020_3.png" alt="">
+            <img class="tilesimg" src="images/best2020_4.png" alt="">
+            <img class="tilesimg" src="images/best2020_5.png" alt="">
+            <img class="tilesimg" src="images/best2020_6.png" alt="">
         </div>
         <p class="p1">Trending Now</p>
         <div class="tiles">
+            <img class="tilesimg" src="images/trendy_scam.png" alt="">
+            <img class="tilesimg" src="images/trendy_box.png" alt="">
+            <img class="tilesimg" src="images/trendy_dedarde.png" alt="">
+            <img class="tilesimg" src="images/trendy_lechhallang.png" alt="">
+            <img class="tilesimg" src="images/trendy_monster.png" alt="">
+            <img class="tilesimg" src="images/tredny_positions.png" alt="">
             <img class="tilesimg" src="images/trendy_scam.png" alt="">
             <img class="tilesimg" src="images/trendy_box.png" alt="">
             <img class="tilesimg" src="images/trendy_dedarde.png" alt="">
@@ -256,9 +275,36 @@
             <img class="tilesimg" src="images/badyboy.png" alt="">
             <img class="tilesimg" src="images/intentions.png" alt="">
             <img class="tilesimg" src="images/willow.png" alt="">
+            <img class="tilesimg" src="images/willow.png" alt="">
+            <img class="tilesimg" src="images/yummy.png" alt="">
+            <img class="tilesimg" src="images/believer.png" alt="">
+            <img class="tilesimg" src="images/badyboy.png" alt="">
+            <img class="tilesimg" src="images/intentions.png" alt="">
+            <img class="tilesimg" src="images/willow.png" alt="">
         </div>
         <p class="p1">Editor's Pick</p>
         <div class="tiles">
+            <img class="tilesimg" src="images/terrimitti.png" alt="">
+            <img class="tilesimg" src="images/terayaarhoon.png" alt="">
+            <img class="tilesimg" src="images/shapeofu.png" alt="">
+            <img class="tilesimg" src="images/kabirsingh.png" alt="">
+            <img class="tilesimg" src="images/memories.png" alt="">
+            <img class="tilesimg" src="images/khairiyat.png" alt="">
+            <img class="tilesimg" src="images/terrimitti.png" alt="">
+            <img class="tilesimg" src="images/terayaarhoon.png" alt="">
+            <img class="tilesimg" src="images/shapeofu.png" alt="">
+            <img class="tilesimg" src="images/kabirsingh.png" alt="">
+            <img class="tilesimg" src="images/memories.png" alt="">
+            <img class="tilesimg" src="images/khairiyat.png" alt="">
+        </div>
+        <p class="p1">Evergreen Kannada Hits</p>
+        <div class="tiles">
+            <img class="tilesimg" src="images/terrimitti.png" alt="">
+            <img class="tilesimg" src="images/terayaarhoon.png" alt="">
+            <img class="tilesimg" src="images/shapeofu.png" alt="">
+            <img class="tilesimg" src="images/kabirsingh.png" alt="">
+            <img class="tilesimg" src="images/memories.png" alt="">
+            <img class="tilesimg" src="images/khairiyat.png" alt="">
             <img class="tilesimg" src="images/terrimitti.png" alt="">
             <img class="tilesimg" src="images/terayaarhoon.png" alt="">
             <img class="tilesimg" src="images/shapeofu.png" alt="">
